@@ -41,7 +41,7 @@ function App() {
 
 ## Basic usage
 
-Note that you can pass almost any prop from [DatePicker](/api/date-picker/).
+Note that you can pass almost any prop from [DatePicker](/material/api/date-picker/).
 
 {{"demo": "BasicDateRangePicker.js"}}
 
@@ -91,6 +91,6 @@ If you need to render custom inputs make sure to spread `ref` and `inputProps` c
 ## Customized day rendering
 
 The displayed days are customizable with the `renderDay` function prop.
-You can take advantage of the internal [DateRangePickerDay](/api/date-range-picker-day/) component.
+You can take advantage of the internal [DateRangePickerDay](/material/api/date-range-picker-day/) component.
 
 {{"demo": "CustomDateRangePickerDay.js"}}

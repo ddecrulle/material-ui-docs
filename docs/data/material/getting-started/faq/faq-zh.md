@@ -2,7 +2,7 @@
 
 <p class="description">您在一个特定的问题上停滞不前吗？ 您可以先在常见 FAQ（问题解答）中检索一下常见问题。</p>
 
-如果仍然找不到所需的内容，您可以参考我们的 [支持页面](/getting-started/support/) 。
+如果仍然找不到所需的内容，您可以参考我们的 [支持页面](/material/getting-started/support/) 。
 
 ## MUI is awesome. 我该如何支持该项目？
 
@@ -21,7 +21,7 @@
 
 ## 为什么我的组件在生产构造中没有正确地渲染？
 
-发生这种情况的首要原因，很有可能是您的代码在生产环境中的捆绑包中出现了类名冲突。 如果想要 Material-UI 正常工作，页面上所有组件的 `classname` 值必须由单个实例的 [类名称生成器](/styles/advanced/#class-names) 生成。
+发生这种情况的首要原因，很有可能是您的代码在生产环境中的捆绑包中出现了类名冲突。 如果想要 Material-UI 正常工作，页面上所有组件的 `classname` 值必须由单个实例的 [类名称生成器](/system/styles/advanced/#class-names) 生成。
 
 要纠正这个问题，您需要对页面上的所有组件进行初始化，使它们之间永远只有**一个类名生成器**。
 
@@ -33,7 +33,7 @@
 
 > 如果你正使用的 webpack 带有 [SplitChunksPlugin](https://webpack.js.org/plugins/split-chunks-plugin/) 插件 ，请尝试在设置里的 [`optimizations` 下配置 `runtimeChunk`](https://webpack.js.org/configuration/optimization/#optimization-runtimechunk) 。
 
-总的来说，您只需要在每个 Material-UI 应用程序的组件树顶部使用 [`StylesProvider`](/styles/api/#stylesprovider) 组件进行包装，**并在它们之间共享一个单一的类名生成器**，就可以很容易地解决这个问题。
+总的来说，您只需要在每个 Material-UI 应用程序的组件树顶部使用 [`StylesProvider`](/system/styles/api/#stylesprovider) 组件进行包装，**并在它们之间共享一个单一的类名生成器**，就可以很容易地解决这个问题。
 
 ## 为什么当打开一个 Modal（模态框）时，位置固定的元素会移动？
 
@@ -115,7 +115,7 @@ const theme = createTheme({
 
 不用的，JSS 不是一个必须选择。 但是它是一个内置的插件，所以使用它并不会产生额外的捆绑包尺寸。
 
-然而，也许您正在给应用程序添加一些 Material-UI 组件，而应用程序以及使用了其他的样式解决方案，或者您已经熟悉了不同的 API，而不想学习一个新的 API？ 在这种情况下，请访问 [样式库互用](/guides/interoperability/) 章节，在那你可以发现我们使用了一些替代样式库来重新设置 Material-UI 组件的样式，而这是多么的简单。
+然而，也许您正在给应用程序添加一些 Material-UI 组件，而应用程序以及使用了其他的样式解决方案，或者您已经熟悉了不同的 API，而不想学习一个新的 API？ 在这种情况下，请访问 [样式库互用](/material/guides/interoperability/) 章节，在那你可以发现我们使用了一些替代样式库来重新设置 Material-UI 组件的样式，而这是多么的简单。
 
 ## 我应该何时使用内联样式与 CSS？
 
@@ -128,7 +128,7 @@ const theme = createTheme({
 
 ## 我应该怎么使用 react-router？
 
-在我们的指南中详细介绍了如何与 react-router、Gatsby 或 Next.js 这样的 [第三方路由库](/guides/routing/) 整合。
+在我们的指南中详细介绍了如何与 react-router、Gatsby 或 Next.js 这样的 [第三方路由库](/material/guides/routing/) 整合。
 
 ## 我应该怎么访问 DOM 元素？
 
@@ -143,7 +143,7 @@ const ref = React.createRef();
 const element = ref.current;
 ```
 
-如果您对相关 Material-UI 组件是否转发了它的 ref 存在疑问的时候，你可以查看“Props”下的 API 文档，例如 [Button API](/api/button/#props) 包含了
+如果您对相关 Material-UI 组件是否转发了它的 ref 存在疑问的时候，你可以查看“Props”下的 API 文档，例如 [Button API](/material/api/button/#props) 包含了
 
 > ref 会被转发到根元素。
 
@@ -237,7 +237,7 @@ Lerna 根目录下的 package.json 文件示例：
 
 如果您的程序渲染不正常，99% 的情况下都是配置问题： 缺少属性、调用顺序错误或缺少组件 - 服务器端渲染对配置有严格要求。
 
-找出所在问题的最佳方法是将你的项目与 **已经在正常工作的设置** 进行比较。 请逐位查看 [参考实现](/guides/server-rendering/#reference-implementations)。
+找出所在问题的最佳方法是将你的项目与 **已经在正常工作的设置** 进行比较。 请逐位查看 [参考实现](/material/guides/server-rendering/#reference-implementations)。
 
 ### CSS 仅在第一次加载时生效，然后就消失了
 
@@ -272,7 +272,7 @@ function handleRender(req, res) {
 
 #### 要运行的操作
 
-类名值依赖于 [类名生成器](/styles/advanced/#class-names) 的概念。 类名值依赖于 [类名生成器](/styles/advanced/#class-names) 的概念。 这个生成器需要在服务端和客户端上的行为一致。 就像这样：
+类名值依赖于 [类名生成器](/system/styles/advanced/#class-names) 的概念。 类名值依赖于 [类名生成器](/system/styles/advanced/#class-names) 的概念。 这个生成器需要在服务端和客户端上的行为一致。 就像这样：
 
 - 您需要为每个请求提供一个新的类名生成器。 但是您不应该在不同的请求之间共享 `createGenerateClassName()`：
 
@@ -314,11 +314,11 @@ function handleRender(req, res) {
 
 ## 为什么我看到的颜色和文档这里的颜色大相径庭？
 
-这是因为文档网站使用了一个自定义的主题。 因此，调色板和 Material-UI 的默认的主题所展示的效果是截然不同的。 请参考 [这个页面](/customization/theming/) 来了解自定义主题。
+这是因为文档网站使用了一个自定义的主题。 因此，调色板和 Material-UI 的默认的主题所展示的效果是截然不同的。 请参考 [这个页面](/material/customization/theming/) 来了解自定义主题。
 
 ## 为什么组件 X 需要属性中的 DOM 节点而不是一个 ref 对象？
 
-像 [Portal](/api/portal/#props) 或 [Popper](/api/popper/#props) 这样的组件分别需要 `container` 或 `anchorEl` 属性中的 DOM 节点。 若需在这些属性中传递一个 ref 对象，并让 Material-UI 访问当前值，这看起来更加简洁有效。 这在一个简单的方案中就可以实现：
+像 [Portal](/material/api/portal/#props) 或 [Popper](/material/api/popper/#props) 这样的组件分别需要 `container` 或 `anchorEl` 属性中的 DOM 节点。 若需在这些属性中传递一个 ref 对象，并让 Material-UI 访问当前值，这看起来更加简洁有效。 这在一个简单的方案中就可以实现：
 
 ```jsx
 function App() {

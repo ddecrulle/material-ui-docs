@@ -90,4 +90,4 @@ Por favor, considere contribuir com novas traduções de volta para o Material-U
 
 ## Suporte RTL
 
-Idiomas da direita para esquerda como árabe, persa ou hebraico são suportados. Siga [este guia](/guides/right-to-left/) para usá-los.
+Idiomas da direita para esquerda como árabe, persa ou hebraico são suportados. Siga [este guia](/material/guides/right-to-left/) para usá-los.

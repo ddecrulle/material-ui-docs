@@ -91,7 +91,7 @@ Botões de rolagem da esquerda e direita nunca serão apresentados com `scrollBu
 
 ## Abas customizadas
 
-Aqui está um exemplo de customização do componente. Você pode aprender mais sobre isso na [página de documentação de sobrescritas](/customization/how-to-customize/).
+Aqui está um exemplo de customização do componente. Você pode aprender mais sobre isso na [página de documentação de sobrescritas](/material/customization/how-to-customize/).
 
 {{"demo": "CustomizedTabs.js"}}
 
@@ -127,7 +127,7 @@ By default, the icon is positioned at the `top` of a tab. Other supported positi
 
 ## Acessibilidade
 
-One frequent use case is to perform navigation on the client only, without an HTTP round-trip to the server. O componente `Aba` fornece o `componente` prop para lidar com este caso de uso. Aqui está um [guia mais detalhado](/guides/routing/#tabs).
+One frequent use case is to perform navigation on the client only, without an HTTP round-trip to the server. O componente `Aba` fornece o `componente` prop para lidar com este caso de uso. Aqui está um [guia mais detalhado](/material/guides/routing/#tabs).
 
 ## Accessibility
 

@@ -26,13 +26,13 @@ The `Modal` offers important features:
 > A modal window describes parts of a UI.
 > An element is considered modal if [it blocks interaction with the rest of the application](https://en.wikipedia.org/wiki/Modal_window).
 
-If you are creating a modal dialog, you probably want to use the [Dialog](/components/dialogs/) component rather than directly using Modal.
+If you are creating a modal dialog, you probably want to use the [Dialog](/material/react-dialog/) component rather than directly using Modal.
 Modal is a lower-level construct that is leveraged by the following components:
 
-- [Dialog](/components/dialogs/)
-- [Drawer](/components/drawers/)
-- [Menu](/components/menus/)
-- [Popover](/components/popover/)
+- [Dialog](/material/react-dialog/)
+- [Drawer](/material/react-drawer/)
+- [Menu](/material/react-menu/)
+- [Popover](/material/react-popover/)
 
 ## Basic modal
 

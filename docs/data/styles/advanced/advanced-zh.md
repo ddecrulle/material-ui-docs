@@ -8,7 +8,7 @@
 
 若您想将主题传递到 React 组件树，请将添加 `ThemeProvider` 包装到应用程序的顶层。 然后，您可以在样式函数中访问主题对象。
 
-> 此示例为自定义组件创建了一个主题对象（theme object）。 If you intend to use some of the Material-UI's components you need to provide a richer theme structure using the `createTheme()` method. 请前往 [theming 部分](/customization/theming/) 学习如何构建自己的 Material-UI 主题。 Head to the [theming section](/customization/theming/) to learn how to build your custom MUI theme.
+> 此示例为自定义组件创建了一个主题对象（theme object）。 If you intend to use some of the Material-UI's components you need to provide a richer theme structure using the `createTheme()` method. 请前往 [theming 部分](/material/customization/theming/) 学习如何构建自己的 Material-UI 主题。 Head to the [theming section](/material/customization/theming/) to learn how to build your custom MUI theme.
 
 ```jsx
 import { ThemeProvider } from '@material-ui/core/styles';
@@ -373,7 +373,7 @@ function render() {
 }
 ```
 
-您可以[根据这篇服务端渲染指南](/guides/server-rendering/)来获取更多详细的例子，或者您也可以阅读 [`ServerStyleSheets` 的 API 文档](/styles/api/#serverstylesheets)。
+您可以[根据这篇服务端渲染指南](/material/guides/server-rendering/)来获取更多详细的例子，或者您也可以阅读 [`ServerStyleSheets` 的 API 文档](/system/styles/api/#serverstylesheets)。
 
 ### Gatsby
 
@@ -393,7 +393,7 @@ Refer to [this example project](https://github.com/mui-org/material-ui/tree/mast
 
 ## 类名（Class names）
 
-类名（class names）由 [类名生成器](/styles/api/#creategenerateclassname-options-class-name-generator) 生成。
+类名（class names）由 [类名生成器](/system/styles/api/#creategenerateclassname-options-class-name-generator) 生成。
 
 ### 默认值
 
@@ -434,7 +434,7 @@ const className = `${productionPrefix}-${identifier}`;
 
 - 仅使用一个主题提供程序（**无主题嵌套**）。
 - 样式表的名称以 `Mui` 开头（包含所有 Material-UI 组件）。
-- [类名生成器](/styles/api/#creategenerateclassname-options-class-name-generator)的 `disableGlobal` 选项为 `false`（默认值）。
+- [类名生成器](/system/styles/api/#creategenerateclassname-options-class-name-generator)的 `disableGlobal` 选项为 `false`（默认值）。
 
 ## 全局 CSS
 

@@ -18,19 +18,19 @@ reducing the size.
 
 The following components have props applying higher density:
 
-- [Button](/api/button/)
-- [Fab](/api/fab/)
-- [FilledInput](/api/filled-input/)
-- [FormControl](/api/form-control/)
-- [FormHelperText](/api/form-helper-text/)
-- [IconButton](/api/icon-button/)
-- [InputBase](/api/input-base/)
-- [InputLabel](/api/input-label/)
-- [ListItem](/api/list-item/)
-- [OutlinedInput](/api/outlined-input/)
-- [Table](/api/table/)
-- [TextField](/api/text-field/)
-- [Toolbar](/api/toolbar/)
+- [Button](/material/api/button/)
+- [Fab](/material/api/fab/)
+- [FilledInput](/material/api/filled-input/)
+- [FormControl](/material/api/form-control/)
+- [FormHelperText](/material/api/form-helper-text/)
+- [IconButton](/material/api/icon-button/)
+- [InputBase](/material/api/input-base/)
+- [InputLabel](/material/api/input-label/)
+- [ListItem](/material/api/list-item/)
+- [OutlinedInput](/material/api/outlined-input/)
+- [Table](/material/api/table/)
+- [TextField](/material/api/text-field/)
+- [Toolbar](/material/api/toolbar/)
 
 ## Explore theme density
 

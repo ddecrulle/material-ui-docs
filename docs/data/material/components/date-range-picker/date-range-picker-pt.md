@@ -37,7 +37,7 @@ function App() {
 
 ## Utilização Básica
 
-Note que você pode passar quase qualquer propriedade de [DatePicker](/api/date-picker/).
+Note que você pode passar quase qualquer propriedade de [DatePicker](/material/api/date-picker/).
 
 {{"demo": "BasicDateRangePicker.js"}}
 
@@ -84,6 +84,6 @@ Desabilitar datas se comporta da mesma forma que `DatePicker`.
 
 ## Renderização customizada do dia
 
-Os dias exibidos são customizados com uma função na propriedade `renderDay`. You can take advantage of the internal [DateRangePickerDay](/api/date-range-picker-day/) component.
+Os dias exibidos são customizados com uma função na propriedade `renderDay`. You can take advantage of the internal [DateRangePickerDay](/material/api/date-range-picker-day/) component.
 
 {{"demo": "CustomDateRangePickerDay.js"}}

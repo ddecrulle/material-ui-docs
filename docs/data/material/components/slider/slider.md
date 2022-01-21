@@ -85,7 +85,7 @@ In this example, an input allows a discrete value to be set.
 ## Customization
 
 Here are some examples of customizing the component.
-You can learn more about this in the [overrides documentation page](/customization/how-to-customize/).
+You can learn more about this in the [overrides documentation page](/material/customization/how-to-customize/).
 
 {{"demo": "CustomizedSlider.js"}}
 

@@ -41,14 +41,14 @@ The `helperText` prop can then be used to provide feedback to the user about the
 ## Multiline
 
 The `multiline` prop transforms the text field into a [`<textarea>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) element.
-Unless the `rows` prop is set, the height of the text field dynamically matches its content (using [TextareaAutosize](/components/textarea-autosize/)).
+Unless the `rows` prop is set, the height of the text field dynamically matches its content (using [TextareaAutosize](/material/react-textarea-autosize/)).
 You can use the `minRows` and `maxRows` props to bound it.
 
 {{"demo": "MultilineTextFields.js"}}
 
 ## Select
 
-The `select` prop makes the text field use the [Select](/components/selects/) component internally.
+The `select` prop makes the text field use the [Select](/material/react-select/) component internally.
 
 {{"demo": "SelectTextFields.js"}}
 
@@ -98,12 +98,12 @@ The component can be controlled or uncontrolled.
 ## Components
 
 `TextField` is composed of smaller components (
-[`FormControl`](/api/form-control/),
-[`Input`](/api/input/),
-[`FilledInput`](/api/filled-input/),
-[`InputLabel`](/api/input-label/),
-[`OutlinedInput`](/api/outlined-input/),
-and [`FormHelperText`](/api/form-helper-text/)
+[`FormControl`](/material/api/form-control/),
+[`Input`](/material/api/input/),
+[`FilledInput`](/material/api/filled-input/),
+[`InputLabel`](/material/api/input-label/),
+[`OutlinedInput`](/material/api/outlined-input/),
+and [`FormHelperText`](/material/api/form-helper-text/)
 ) that you can leverage directly to significantly customize your form inputs.
 
 You might also have noticed that some native HTML input properties are missing from the `TextField` component.
@@ -126,13 +126,13 @@ The `color` prop changes the highlight color of the text field when focused.
 ## Customization
 
 Here are some examples of customizing the component.
-You can learn more about this in the [overrides documentation page](/customization/how-to-customize/).
+You can learn more about this in the [overrides documentation page](/material/customization/how-to-customize/).
 
 {{"demo": "CustomizedInputs.js"}}
 
 Customization does not stop at CSS.
 You can use composition to build custom components and give your app a unique feel.
-Below is an example using the [`InputBase`](/api/input-base/) component, inspired by Google Maps.
+Below is an example using the [`InputBase`](/material/api/input-base/) component, inspired by Google Maps.
 
 {{"demo": "CustomizedInputBase.js", "bg": true}}
 

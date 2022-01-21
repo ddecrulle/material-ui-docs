@@ -36,13 +36,13 @@ The `error` prop toggles the error state. The `error` prop toggles the error sta
 
 ## 多行属性
 
-`multiline` 属性将文本框转换为 [`<textarea>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) 元素。 除非设置了 `rows` 属性，否则文本框的高度会动态匹配其内容（当你使用 [TextareaAutosize](/components/textarea-autosize/) 属性时）。 You can use the `minRows` and `maxRows` props to bound it.
+`multiline` 属性将文本框转换为 [`<textarea>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) 元素。 除非设置了 `rows` 属性，否则文本框的高度会动态匹配其内容（当你使用 [TextareaAutosize](/material/react-textarea-autosize/) 属性时）。 You can use the `minRows` and `maxRows` props to bound it.
 
 {{"demo": "MultilineTextFields.js"}}
 
 ## Select 选择属性
 
-使用 `select` 属性的时候，您可以在文本框内插入一个 [Select](/components/selects/) 组件。
+使用 `select` 属性的时候，您可以在文本框内插入一个 [Select](/material/react-select/) 组件。
 
 {{"demo": "SelectTextFields.js"}}
 
@@ -88,7 +88,7 @@ The `margin` prop can be used to alter the vertical spacing of the text field. T
 
 ## Components 组件
 
-`TextField` 是由一些较小的组件组成的 ( [`FormControl`](/api/form-control/)， [`Input`](/api/input/)， [`FilledInput`](/api/filled-input/)， [`InputLabel`](/api/input-label/)， [`OutlinedInput`](/api/outlined-input/)， and [`FormHelperText`](/api/form-helper-text/) ) ，而你可以直接使用这些小的组件，来自定制你的表单域输入框。
+`TextField` 是由一些较小的组件组成的 ( [`FormControl`](/material/api/form-control/)， [`Input`](/material/api/input/)， [`FilledInput`](/material/api/filled-input/)， [`InputLabel`](/material/api/input-label/)， [`OutlinedInput`](/material/api/outlined-input/)， and [`FormHelperText`](/material/api/form-helper-text/) ) ，而你可以直接使用这些小的组件，来自定制你的表单域输入框。
 
 您可能注意到了， 和原生的 HTML input 组件相比，`TextField` 组件缺失了一些属性。 这是故意为之的。 The component takes care of the most used properties. Then, it's up to the user to use the underlying component shown in the following demo. 但是同时, 为了避免过于模版化，您仍然可以使用 `inputProps` (和 `inputProps`, `InputLabelProps` 属性) 来控制原生组件的属性。
 
@@ -106,11 +106,11 @@ The `margin` prop can be used to alter the vertical spacing of the text field. T
 
 ## 自定义输入
 
-你可以参考以下一些例子来自定义组件。 您可以在 [重写文档页面](/customization/how-to-customize/) 中了解更多有关此内容的信息。
+你可以参考以下一些例子来自定义组件。 您可以在 [重写文档页面](/material/customization/how-to-customize/) 中了解更多有关此内容的信息。
 
 {{"demo": "CustomizedInputs.js"}}
 
-Customization does not stop at CSS. You can use composition to build custom components and give your app a unique feel. 接下来的这个示例受到了 Google 地图的启发，它使用了 [`InputBase`](/api/input-base/) 组件。
+Customization does not stop at CSS. You can use composition to build custom components and give your app a unique feel. 接下来的这个示例受到了 Google 地图的启发，它使用了 [`InputBase`](/material/api/input-base/) 组件。
 
 {{"demo": "CustomizedInputBase.js", "bg": true}}
 

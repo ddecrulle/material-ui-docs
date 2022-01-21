@@ -103,7 +103,7 @@ You can customize the rendering of the input with the `renderInput` prop. Certif
 
 ## Renderização customizada do dia
 
-Os dias exibidos são customizados com uma função na propriedade `renderDay`. You can take advantage of the [PickersDay](/api/pickers-day/) component.
+Os dias exibidos são customizados com uma função na propriedade `renderDay`. You can take advantage of the [PickersDay](/material/api/pickers-day/) component.
 
 {{"demo": "CustomDay.js"}}
 

@@ -120,7 +120,7 @@
 import { palette } from '@material-ui/system';
 ```
 
-| 导入名称  | 属性      | CSS 属性          | Theme key                                                        |
-| :-------- | :-------- | :---------------- | :--------------------------------------------------------------- |
-| `color`   | `color`   | `color`           | [`palette`](/customization/default-theme/?expand-path=$.palette) |
-| `bgcolor` | `bgcolor` | `backgroundColor` | [`palette`](/customization/default-theme/?expand-path=$.palette) |
+| 导入名称  | 属性      | CSS 属性          | Theme key                                                                 |
+| :-------- | :-------- | :---------------- | :------------------------------------------------------------------------ |
+| `color`   | `color`   | `color`           | [`palette`](/material/customization/default-theme/?expand-path=$.palette) |
+| `bgcolor` | `bgcolor` | `backgroundColor` | [`palette`](/material/customization/default-theme/?expand-path=$.palette) |

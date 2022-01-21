@@ -11,7 +11,7 @@ githubLabel: 'ícones'
 
 <p class="description">1,900+ React Material icons ready-to-use from the official website.</p>
 
-The following npm package, [@mui/icons-material](https://www.npmjs.com/package/@mui/icons-material), includes the 1,900+ official [Material icons](https://fonts.google.com/icons) converted to [`SvgIcon`](/api/svg-icon/) components.
+The following npm package, [@mui/icons-material](https://www.npmjs.com/package/@mui/icons-material), includes the 1,900+ official [Material icons](https://fonts.google.com/icons) converted to [`SvgIcon`](/material/api/svg-icon/) components.
 
 {{"component": "modules/components/ComponentLinkHeader.js"}}
 

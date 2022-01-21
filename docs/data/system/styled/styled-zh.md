@@ -4,7 +4,7 @@
 
 ## Introduction
 
-All the MUI components are styled with this `styled()` utility. This utility is built on top of the `styled()` module of [`@mui/styled-engine`](/guides/styled-engine/) and provides additional features.
+All the MUI components are styled with this `styled()` utility. This utility is built on top of the `styled()` module of [`@mui/styled-engine`](/material/guides/styled-engine/) and provides additional features.
 
 ### 引用路径
 
@@ -15,7 +15,7 @@ You can use the utility coming from the `@mui/system` package, or if you are usi
 该能力可以作为 emotion 或者是 styled-components 中 styled()能力的替代品 处理的都是一样的问题，但是它额外提供了下面这些内容
 
 1. It uses MUI's default `theme` if no theme is available in React context.
-2. 支持根据`name`属性设置主题中的[`styleOverrides`](/customization/theme-components/#global-style-overrides) 和 [`variants`](/customization/theme-components/#adding-new-component-variants)（可忽略）。
+2. 支持根据`name`属性设置主题中的[`styleOverrides`](/material/customization/theme-components/#global-style-overrides) 和 [`variants`](/material/customization/theme-components/#adding-new-component-variants)（可忽略）。
 3. 新增对`sx`属性的支持(可忽略）
 4. It adds by default `shouldForwardProp` option that is taking into account all props used internally in the MUI components (can be overridden).
 

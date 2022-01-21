@@ -26,7 +26,7 @@ materialDesign: https://material.io/components/lists
 </ListItemButton>
 ```
 
-你可以从这里查看 [React Router 与文档此部分结合使用的相关样例](/guides/routing/#list)。
+你可以从这里查看 [React Router 与文档此部分结合使用的相关样例](/material/guides/routing/#list)。
 
 ## 嵌套列表
 
@@ -100,7 +100,7 @@ When displaying three lines or more, the avatar is not aligned at the top. You s
 
 ## Customized List
 
-你可以参考以下一些例子来自定义组件。 您可以在 [重写文档页面](/customization/how-to-customize/) 中了解更多有关此内容的信息。
+你可以参考以下一些例子来自定义组件。 您可以在 [重写文档页面](/material/customization/how-to-customize/) 中了解更多有关此内容的信息。
 
 {{"demo": "CustomizedList.js"}}
 

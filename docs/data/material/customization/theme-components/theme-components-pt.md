@@ -27,7 +27,7 @@ const theme = createTheme({
 
 The list of each component's classes is documented under the **CSS** section of its API page.
 
-To override a lab component's styles with TypeScript, check [this section of the documentation](/components/about-the-lab/#typescript).
+To override a lab component's styles with TypeScript, check [this section of the documentation](/material/about-the-lab/#typescript).
 
 ## Propriedades padrão
 
@@ -48,7 +48,7 @@ const theme = createTheme({
 
 {{"demo": "DefaultProps.js"}}
 
-To override lab component styles with TypeScript, check [this page](/components/about-the-lab/#typescript).
+To override lab component styles with TypeScript, check [this page](/material/about-the-lab/#typescript).
 
 ## Adicionando novas variantes de componentes
 
@@ -96,7 +96,7 @@ declare module '@material-ui/core/Button/Button' {
 
 ## Variáveis de tema
 
-Another way to override the look of all component instances is to adjust the [theme configuration variables](/customization/theming/#theme-configuration-variables).
+Another way to override the look of all component instances is to adjust the [theme configuration variables](/material/customization/theming/#theme-configuration-variables).
 
 ```js
 const theme = createTheme({

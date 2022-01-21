@@ -87,4 +87,4 @@ const theme = createTheme({
 
 ## References
 
-Check out the [Transitions](/components/transitions/) page to explore the transition components that are included with MUI.
+Check out the [Transitions](/material/transitions/) page to explore the transition components that are included with MUI.

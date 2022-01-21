@@ -40,14 +40,14 @@ For the menu that has long list and long text, you can use the `dense` prop to r
 ## Selected menu
 
 If used for item selection, when opened, simple menus places the initial focus on the selected menu item.
-The currently selected menu item is set using the `selected` prop (from [ListItem](/api/list-item/)).
+The currently selected menu item is set using the `selected` prop (from [ListItem](/material/api/list-item/)).
 To use a selected menu item without impacting the initial focus, set the `variant` prop to "menu".
 
 {{"demo": "SimpleListMenu.js"}}
 
 ## Positioned menu
 
-Because the `Menu` component uses the `Popover` component to position itself, you can use the same [positioning props](/components/popover/#anchor-playground) to position it.
+Because the `Menu` component uses the `Popover` component to position itself, you can use the same [positioning props](/material/react-popover/#anchor-playground) to position it.
 For instance, you can display the menu on top of the anchor:
 
 {{"demo": "PositionedMenu.js"}}
@@ -71,7 +71,7 @@ The primary responsibility of the `MenuList` component is to handle the focus.
 ## Customization
 
 Here is an example of customizing the component.
-You can learn more about this in the [overrides documentation page](/customization/how-to-customize/).
+You can learn more about this in the [overrides documentation page](/material/customization/how-to-customize/).
 
 {{"demo": "CustomizedMenus.js"}}
 

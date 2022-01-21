@@ -14,7 +14,7 @@ Uma [grade](https://material.io/design/layout/responsive-layout-grid.html) cria 
 
 {{"component": "modules/components/ComponentLinkHeader.js"}}
 
-> O componente `Grid` não deve ser confundido com um data grid; ele está mais próximo de um layout grid. Para um cabeçalho do data grid para [o componente `DataGrid`](/components/data-grid/).
+> O componente `Grid` não deve ser confundido com um data grid; ele está mais próximo de um layout grid. Para um cabeçalho do data grid para [o componente `DataGrid`](/x/react-data-grid/).
 
 ## Como funciona
 
@@ -25,7 +25,7 @@ O sistema de grade é implementado com o componente `Grid`:
 - Larguras de itens são definidas em porcentagens, desse modo são sempre fluidas e dimensionadas de acordo os seus elementos pai.
 - Itens têm preenchimento para criar o espaçamento entre itens individuais.
 - Existem cinco pontos de quebra (breakpoints) na grade: xs, sm, md, lg e xl.
-- Integer values can be given to each breakpoint, indicating how many of the 12 available columns are occupied by the component when the viewport width satisfies the [breakpoint constraints](/customization/breakpoints/#default-breakpoints).
+- Integer values can be given to each breakpoint, indicating how many of the 12 available columns are occupied by the component when the viewport width satisfies the [breakpoint constraints](/material/customization/breakpoints/#default-breakpoints).
 
 Se você é **novo ou não está familiarizado com o flexbox**, nós recomendamos você a ler este [guia do Flexbox CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
@@ -51,7 +51,7 @@ Aqui por exemplo `xs={12} sm={6}` define que o componente ocupará metade da lar
 
 ## Espaçamento
 
-Para controlar o espaço entre os filhos, use a prop `spacing` O valor do espaçamento pode ser qualquer numero positivo, incluindo decimais e até strings (cadeia de caracteres) As props são convertidas em css usando o auxiliar [`theme.spacing()`](/customization/spacing/) O valor do espaçamento pode ser qualquer numero positivo, incluindo decimais e até strings (cadeia de caracteres) As props são convertidas em css usando o auxiliar [`theme.spacing()`](/customization/spacing/)
+Para controlar o espaço entre os filhos, use a prop `spacing` O valor do espaçamento pode ser qualquer numero positivo, incluindo decimais e até strings (cadeia de caracteres) As props são convertidas em css usando o auxiliar [`theme.spacing()`](/material/customization/spacing/) O valor do espaçamento pode ser qualquer numero positivo, incluindo decimais e até strings (cadeia de caracteres) As props são convertidas em css usando o auxiliar [`theme.spacing()`](/material/customization/spacing/)
 
 {{"demo": "SpacingGrid.js", "bg": true}}
 

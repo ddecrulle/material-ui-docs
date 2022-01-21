@@ -90,4 +90,4 @@ product: material-------------------- |:----------- |:------ |
 
 ## RTL 支持
 
-支持从右到左的语言，如阿拉伯语（Arabic）、波斯语（Persian ）或希伯来语（Hebrew ）。 请遵循 [本指南](/guides/right-to-left/) 来使用这些语言。
+支持从右到左的语言，如阿拉伯语（Arabic）、波斯语（Persian ）或希伯来语（Hebrew ）。 请遵循 [本指南](/material/guides/right-to-left/) 来使用这些语言。

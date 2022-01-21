@@ -5,7 +5,7 @@ module.exports = {
   enable_blog_index: process.env.NODE_ENV !== 'production' || process.env.PULL_REQUEST,
   // TODO: cleanup once migration is done
   enable_product_scope: true, // related to new structure change
-  enable_redirects: false, // related to new structure change
+  enable_redirects: true, // related to new structure change
   enable_mui_base_scope: false, // will be enabled after the migration
-  enable_system_scope: false, // will be enabled after the migration
+  enable_system_scope: true, // will be enabled after the migration
 };

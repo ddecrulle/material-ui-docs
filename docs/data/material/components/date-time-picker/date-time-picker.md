@@ -13,7 +13,7 @@ materialDesign: https://material.io/components/date-pickers
 
 This component combines the date & time pickers. It allows the user to select both date and time with the same control.
 
-Note that this component is the [DatePicker](/components/date-picker/) and [TimePicker](/components/time-picker/)
+Note that this component is the [DatePicker](/material/react-date-picker/) and [TimePicker](/material/react-time-picker/)
 component combined, so any of these components' props can be passed to the DateTimePicker.
 
 {{"component": "modules/components/ComponentLinkHeader.js"}}

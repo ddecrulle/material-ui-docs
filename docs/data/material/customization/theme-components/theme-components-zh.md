@@ -27,7 +27,7 @@ const theme = createTheme({
 
 在组件 API 页面的 **CSS**介绍部分，列出了每个组件样式类的文档。
 
-要用 TypeScript 重写 lab 组件的样式，请查看 [此文档](/components/about-the-lab/#typescript)。
+要用 TypeScript 重写 lab 组件的样式，请查看 [此文档](/material/about-the-lab/#typescript)。
 
 ## 默认属性
 
@@ -54,7 +54,7 @@ const theme = createTheme({
 
 {{"demo": "DefaultProps.js"}}
 
-要使用 TypeScript 覆盖实验室组件样式，请检查 [此文档](/components/about-the-lab/#typescript)
+要使用 TypeScript 覆盖实验室组件样式，请检查 [此文档](/material/about-the-lab/#typescript)
 
 ## 添加新的组件变量
 
@@ -102,7 +102,7 @@ declare module '@material-ui/core/Button/Button' {
 
 ## 主题变量
 
-覆盖所有组件实例的另一种方式是调整 [theme configuration variables](/customization/theming/#theme-configuration-variables)。
+覆盖所有组件实例的另一种方式是调整 [theme configuration variables](/material/customization/theming/#theme-configuration-variables)。
 
 ```js
 const theme = createTheme({

@@ -18,7 +18,7 @@ materialDesign: https://material.io/components/date-pickers
 
 该组件合并了日期与时间选择器。 它允许用户在一套控制逻辑下同时选择日期和时间。
 
-请注意，该组件是 [DatePicker](/components/date-picker/) 和 [TimePicker](/components/time-picker/) 的复合组件，所以这两个组件的所有属性都可以传递到日期时间选择器内。
+请注意，该组件是 [DatePicker](/material/react-date-picker/) 和 [TimePicker](/material/react-time-picker/) 的复合组件，所以这两个组件的所有属性都可以传递到日期时间选择器内。
 
 {{"component": "modules/components/ComponentLinkHeader.js"}}
 

@@ -46,8 +46,8 @@ by default and loose via opt-in.
 
 ## Customization of `Theme`
 
-Moved to [/customization/theming/#custom-variables](/customization/theming/#custom-variables).
+Moved to [/customization/theming/#custom-variables](/material/customization/theming/#custom-variables).
 
 ## Usage of `component` prop
 
-Moved to [/guides/composition/#with-typescript](/guides/composition/#with-typescript).
+Moved to [/guides/composition/#with-typescript](/material/guides/composition/#with-typescript).

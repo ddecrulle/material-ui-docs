@@ -13,11 +13,11 @@ githubLabel: 'component: Stack'
 
 ## 使用
 
-`Stack` is concerned with one-dimensional layouts, while [Grid](/components/grid/) that handles two-dimensional layouts. The default direction is `column` which stacks children vertically. 默认方向是垂直堆叠子项的 `列`。
+`Stack` is concerned with one-dimensional layouts, while [Grid](/material/react-grid/) that handles two-dimensional layouts. The default direction is `column` which stacks children vertically. 默认方向是垂直堆叠子项的 `列`。
 
 {{"demo": "BasicStack.js", "bg": true}}
 
-To control space between children, use the `spacing` prop. The spacing value can be any number, including decimals and any string. The prop is converted into a CSS property using the [`theme.spacing()`](/customization/spacing/) helper. 间距值可以是任何数字，包括小数（浮点数）和任何字符串（文字）。 The prop is converted into a CSS property using the [`theme.spacing()`](/customization/spacing/) helper.
+To control space between children, use the `spacing` prop. The spacing value can be any number, including decimals and any string. The prop is converted into a CSS property using the [`theme.spacing()`](/material/customization/spacing/) helper. 间距值可以是任何数字，包括小数（浮点数）和任何字符串（文字）。 The prop is converted into a CSS property using the [`theme.spacing()`](/material/customization/spacing/) helper.
 
 ## 方向
 
@@ -27,7 +27,7 @@ To control space between children, use the `spacing` prop. The spacing value can
 
 ## Dividers（分隔线）
 
-使用 `divider` prop 在每个子节之间插入一个元素。 在 [Divider](/components/dividers/) 组件中运行得尤其好。
+使用 `divider` prop 在每个子节之间插入一个元素。 在 [Divider](/material/react-divider/) 组件中运行得尤其好。
 
 {{"demo": "DividerStack.js", "bg": true}}
 

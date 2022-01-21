@@ -70,13 +70,13 @@ All components accept an `onClick` handler that is applied to the root DOM eleme
 </Button>
 ```
 
-Note that the documentation [avoids](/guides/api/#native-properties) mentioning native props (there are a lot) in the API section of the components.
+Note that the documentation [avoids](/material/guides/api/#native-properties) mentioning native props (there are a lot) in the API section of the components.
 
 ## Color
 
 {{"demo": "ColorButtons.js"}}
 
-In addition to using the default button colors, you can add custom ones, or disable any you don't need. See the [Adding new colors](/customization/palette/#adding-new-colors) example for more info.
+In addition to using the default button colors, you can add custom ones, or disable any you don't need. See the [Adding new colors](/material/customization/palette/#adding-new-colors) example for more info.
 
 ## Sizes
 
@@ -118,7 +118,7 @@ Use `color` prop to apply theme color palette to component.
 ## Customization
 
 Here are some examples of customizing the component.
-You can learn more about this in the [overrides documentation page](/customization/how-to-customize/).
+You can learn more about this in the [overrides documentation page](/material/customization/how-to-customize/).
 
 {{"demo": "CustomizedButtons.js", "defaultCodeOpen": false}}
 
@@ -145,7 +145,7 @@ You can take advantage of this lower-level component to build custom interaction
 
 One frequent use case is to perform navigation on the client only, without an HTTP round-trip to the server.
 The `ButtonBase` component provides the `component` prop to handle this use case.
-Here is a [more detailed guide](/guides/routing/#button).
+Here is a [more detailed guide](/material/guides/routing/#button).
 
 ## Limitations
 
@@ -166,7 +166,7 @@ If you wish to use `not-allowed`, you have two options:
 
 However:
 
-- You should add `pointer-events: none;` back when you need to display [tooltips on disabled elements](/components/tooltips/#disabled-elements).
+- You should add `pointer-events: none;` back when you need to display [tooltips on disabled elements](/material/react-tooltip/#disabled-elements).
 - The cursor won't change if you render something other than a button element, for instance, a link `<a>` element.
 
 2. **DOM change**. You can wrap the button:

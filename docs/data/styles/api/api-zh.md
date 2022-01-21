@@ -110,7 +110,7 @@ export default function MyComponent(props) {
 
 ## `ServerStyleSheets`
 
-这是一个处理服务器端渲染的类助手（class helper）。 [您可以遵循本指南以了解实际的操作](/guides/server-rendering/)。
+这是一个处理服务器端渲染的类助手（class helper）。 [您可以遵循本指南以了解实际的操作](/material/guides/server-rendering/)。
 
 ```jsx
 import ReactDOMServer from 'react-dom/server';

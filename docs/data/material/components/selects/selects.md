@@ -21,13 +21,13 @@ Menus are positioned under their emitting elements, unless they are close to the
 
 The Select component is meant to be interchangeable with a native `<select>` element.
 
-If you are looking for more advanced features, like combobox, multiselect, autocomplete, async or creatable support, head to the [`Autocomplete` component](/components/autocomplete/).
+If you are looking for more advanced features, like combobox, multiselect, autocomplete, async or creatable support, head to the [`Autocomplete` component](/material/react-autocomplete/).
 It's meant to be an improved version of the "react-select" and "downshift" packages.
 
 ## Props
 
-The Select component is implemented as a custom `<input>` element of the [InputBase](/api/input-base/).
-It extends the [text field components](/components/text-fields/) sub-components, either the [OutlinedInput](/api/outlined-input/), [Input](/api/input/), or [FilledInput](/api/filled-input/), depending on the variant selected.
+The Select component is implemented as a custom `<input>` element of the [InputBase](/material/api/input-base/).
+It extends the [text field components](/material/react-text-field/) sub-components, either the [OutlinedInput](/material/api/outlined-input/), [Input](/material/api/input/), or [FilledInput](/material/api/filled-input/), depending on the variant selected.
 It shares the same styles and many of the same props. Refer to the respective component's API page for details.
 
 ### Filled and standard variants
@@ -58,12 +58,12 @@ we allow such pattern.
 ## TextField
 
 The `TextField` wrapper component is a complete form control including a label, input and help text.
-You can find an example with the select mode [in this section](/components/text-fields/#select).
+You can find an example with the select mode [in this section](/material/react-text-field/#select).
 
 ## Customization
 
 Here are some examples of customizing the component.
-You can learn more about this in the [overrides documentation page](/customization/how-to-customize/).
+You can learn more about this in the [overrides documentation page](/material/customization/how-to-customize/).
 
 The first step is to style the `InputBase` component.
 Once it's styled, you can either use it directly as a text field or provide it to the select `input` prop to have a `select` field.
