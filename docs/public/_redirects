@@ -109,9 +109,9 @@ https://v4.material-ui.com/* https://v4.mui.com/:splat 301!
 # 2022
 /company/about/ /about/ 301
 ## MUI X
-/components/data-grid/* https://material-ui-x.netlify.app/x/react-data-grid/:splat 200
-/api/data-grid/* https://material-ui-x.netlify.app/x/api/data-grid/:splat 200
-/x/* https://material-ui-x.netlify.app/x/:splat 200
+/components/data-grid/* https://migration--material-ui-x.netlify.app/x/react-data-grid/:splat 200
+/api/data-grid/* https://migration--material-ui-x.netlify.app/x/api/data-grid/:splat 200
+/x/* https://migration--material-ui-x.netlify.app/x/:splat 200
 
 ## MUI Core
 /styles/* /system/styles/:splat 301
