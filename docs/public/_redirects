@@ -108,19 +108,29 @@ https://v4.material-ui.com/* https://v4.mui.com/:splat 301!
 
 # 2022
 /company/about/ /about/ 301
+## MUI X
+/components/data-grid/* https://material-ui-x.netlify.app/x/react-data-grid/:splat 301
+/api/data-grid/* https://material-ui-x.netlify.app/x/api/data-grid/:splat 301
+/x/* https://material-ui-x.netlify.app/x/:splat 301
+
+## MUI Core
 /styles/* /system/styles/:splat 301
 /getting-started/* /material/getting-started/:splat 301
 /customization/* /material/customization/:splat 301
 /guides/* /material/guides/:splat 301
 /discover-more/* /material/discover-more/:splat 301
-/components/data-grid/* /x/react-data-grid/:splat 301
+
+### Exceptions
 /components/icons/ /material/icons/ 301
 /components/material-icons/ /material/material-icons/ 301
 /components/about-the-lab/ /material/about-the-lab/ 301
 /components/transitions/ /material/transitions/ 301
 /components/pickers/ /material/pickers/ 301
+
+### React plural
 /components/tabs/ /material/react-tabs/ 301
 /components/breadcrumbs/ /material/react-breadcrumbs/ 301
+
 /components/checkboxes/ /material/react-checkbox/ 301
 /components/switches/ /material/react-switch/ 301
 /components/buttons/ /material/react-button/ 301
@@ -142,7 +152,6 @@ https://v4.material-ui.com/* https://v4.mui.com/:splat 301!
 /components/menus/ /material/react-menu/ 301
 /components/steppers/ /material/react-stepper/ 301
 /components/* /material/react-:splat 301
-/api/data-grid/* /x/api/data-grid/:splat 301
 /api/* /material/api/:splat 301
 
 ## Localization
@@ -161,9 +170,7 @@ https://v4.material-ui.com/* https://v4.mui.com/:splat 301!
 ## material-ui-x
 ## Unlike the store that expect to be hosted under a subfolder,
 ## material-ui-x is configured to be hosted at the root.
-/api/*/ https://docs-v5--material-ui-x.netlify.app/api/:splat/ 200
 /:lang/api/*/ https://docs-v5--material-ui-x.netlify.app/:lang/api/:splat/ 200
-/components/* https://docs-v5--material-ui-x.netlify.app/components/:splat 200
 /:lang/components/* https://docs-v5--material-ui-x.netlify.app/:lang/components/:splat 200
 /_next/* https://docs-v5--material-ui-x.netlify.app/_next/:splat 200
 /static/x/* https://docs-v5--material-ui-x.netlify.app/static/x/:splat 200
