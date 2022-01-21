@@ -124,7 +124,7 @@ https://v4.material-ui.com/* https://v4.mui.com/:splat 301!
 /components/checkboxes/ /material/react-checkbox/ 301
 /components/switches/ /material/react-switch/ 301
 /components/buttons/ /material/react-button/ 301
-/components/ratio-buttons/ /material/react-radio-button/ 301
+/components/radio-buttons/ /material/react-radio-button/ 301
 /components/selects/ /material/react-select/ 301
 /components/text-fields/ /material/react-text-field/ 301
 /components/avatars/ /material/react-avatar/ 301
